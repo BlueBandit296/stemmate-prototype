@@ -1,0 +1,3 @@
+Real offline, page already open: saved activity opens: True
+Real offline: plan editing works and draft saved: True
+Real offline reload: page loads: False ( Page.reload: net::ERR_INTERNET_DISCONNECTED )
