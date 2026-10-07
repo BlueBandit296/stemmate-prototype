@@ -1,0 +1,8 @@
+Keyboard-only run of T1-T3 (AR-03) on STEMMate_Accessible_Prototype_v0.3.html, Chromium, 2026-10-06. Only key presses used.
+PASS T1 filters set by keyboard ['Junior secondary', 'Physics']; activity opened and saved with Enter
+PASS T1 offline: saved activity opened from the Offline library
+PASS T2 incomplete plan: message shown and focus moved to first missing field (timing)
+PASS T2 complete plan with keyboard only: status Pending (offline)
+PASS T3 after reload the draft is reopened by keyboard with its text
+PASS T3 failed sync while offline then Retry sync recovered it, by keyboard (Draft, Failed -> Draft, Synced)
+Total Tab/Shift+Tab presses: 112. Focus was never trapped.

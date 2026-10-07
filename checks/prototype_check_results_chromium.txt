@@ -1,0 +1,89 @@
+STEMMate prototype scripted checks (Playwright, headless Chromium). Tasks T1-T4 against the
+Team Design Baseline acceptance indicators. Technical walkthrough of the code, not user testing.
+
+########## STEMMate_Accessible_Prototype.html
+Footer: Prototype v0.1
+Run: 2026-10-06T20:13:53+00:00  Browser: Chromium 141.0.7390.37
+
+PASS  T1-a  FR-01  Two filters return only matching activities  [Paper bridge challenge, Pendulum patterns]
+PASS  T1-b  FR-02  Save stores the activity on the device
+PASS  T1-c  FR-02  Offline: saved activity appears in the Offline library and opens  [Offline (simulated)]
+PASS  T1-d  FR-02  After a reload the saved activity is still in the Offline library
+FAIL  T2-b  FR-03  Incomplete plan shows a clear message and is not completed
+PASS  T2-c  FR-03  Incomplete plan can be kept as a draft  [Draft]
+PASS  T2-a  FR-03  A plan with all five fields completes and is queued  [Pending]
+PASS  T2-d  PR-01  Plan form has no name, email or phone field (participation count only)  [planActivity, steps, timing, planMaterials, safety, inclusion, participation]
+FAIL  T3-a  QR-03  After connection loss mid-edit and a reload, the draft is listed  [no draft after reload (typed text was lost)]
+FAIL  T3-b  QR-03  Reopening the draft shows all previously typed fields  [no draft to reopen]
+FAIL  T3-c  FR-04  Plan completed offline shows a Retry sync button after reconnecting  [status Pending (offline)]
+FAIL  T3-d  FR-04  Status bar tells the user action is needed while a plan is waiting  [✓ Changes saved on device]
+FAIL  T3-e  FR-04  Forced failed sync is explained, the plan stays on the device, and Retry recovers it  [no Retry sync button for a plan completed offline]
+FAIL  T3-g  FR-04  Retry while offline fails safely: message shown and the plan stays on the device  [no Retry sync button]
+NOTE  T3-f  FR-04  How a failed sync is triggered  [No visible control: a failure is shown by retrying while offline, or forced with window.forceFail in the console.]
+PASS  T4-a  SR-02  Sign-out warns about unsynced work and clears local data  [Warning: you have unsynced plans. Signing out will clear thi]
+PASS  T4-b  SR-02  After sign-out, plan content is hidden until signing in again
+NOTE  T4-c  SR-01  Second facilitator cannot see the first one's plans  [Not demonstrable: one simulated account (Facilitator A) and shared storage keys, as the on-screen limitation says.]
+PASS  S-1   AR-03  Every form control has an associated label
+PASS  S-2   AR-03  Page language is set  [en]
+PASS  S-3   AR-03  Status and error messages are in live regions with text  [DIV, globalMessage, activityResults]
+PASS  S-4   AR-03  Actions use native buttons (no click handlers on non-interactive elements)
+
+Summary: 13 pass, 7 fail, 2 observations
+
+########## STEMMate_Accessible_Prototype_v0.2.html
+Footer: Prototype v0.2
+Run: 2026-10-06T20:13:56+00:00  Browser: Chromium 141.0.7390.37
+
+PASS  T1-a  FR-01  Two filters return only matching activities  [Paper bridge challenge, Pendulum patterns]
+PASS  T1-b  FR-02  Save stores the activity on the device
+PASS  T1-c  FR-02  Offline: saved activity appears in the Offline library and opens  [Offline (simulated)]
+PASS  T1-d  FR-02  After a reload the saved activity is still in the Offline library
+FAIL  T2-b  FR-03  Incomplete plan shows a clear message and is not completed
+PASS  T2-c  FR-03  Incomplete plan can be kept as a draft  [Draft]
+PASS  T2-a  FR-03  A plan with all five fields completes and is queued  [Pending]
+PASS  T2-d  PR-01  Plan form has no name, email or phone field (participation count only)  [planActivity, steps, timing, planMaterials, safety, inclusion, participation]
+PASS  T3-a  QR-03  After connection loss mid-edit and a reload, the draft is listed  [draft listed]
+PASS  T3-b  QR-03  Reopening the draft shows all previously typed fields
+PASS  T3-c  FR-04  Plan completed offline shows a Retry sync button after reconnecting  [status Pending (offline)]
+PASS  T3-d  FR-04  Status bar tells the user action is needed while a plan is waiting  [● Sync queue: action needed]
+PASS  T3-e  FR-04  Forced failed sync is explained, the plan stays on the device, and Retry recovers it  [Sync failed: connection interrupted. Your plan remains on this device. Select Retry sync to try again. | Failed -> Synced]
+PASS  T3-g  FR-04  Retry while offline fails safely: message shown and the plan stays on the device  [Still offline. Your plan is safe on this device. Reconnect and retry. | Failed]
+NOTE  T3-f  FR-04  How a failed sync is triggered  [No visible control: a failure is shown by retrying while offline, or forced with window.forceFail in the console.]
+PASS  T4-a  SR-02  Sign-out warns about unsynced work and clears local data  [Warning: you have unsynced plans. Signing out will clear thi]
+PASS  T4-b  SR-02  After sign-out, plan content is hidden until signing in again
+NOTE  T4-c  SR-01  Second facilitator cannot see the first one's plans  [Not demonstrable: one simulated account (Facilitator A) and shared storage keys, as the on-screen limitation says.]
+PASS  S-1   AR-03  Every form control has an associated label
+PASS  S-2   AR-03  Page language is set  [en]
+PASS  S-3   AR-03  Status and error messages are in live regions with text  [DIV, globalMessage, activityResults]
+PASS  S-4   AR-03  Actions use native buttons (no click handlers on non-interactive elements)
+
+Summary: 19 pass, 1 fail, 2 observations
+
+########## STEMMate_Accessible_Prototype_v0.3.html
+Footer: Prototype v0.3
+Run: 2026-10-06T20:13:58+00:00  Browser: Chromium 141.0.7390.37
+
+PASS  T1-a  FR-01  Two filters return only matching activities  [Paper bridge challenge, Pendulum patterns]
+PASS  T1-b  FR-02  Save stores the activity on the device
+PASS  T1-c  FR-02  Offline: saved activity appears in the Offline library and opens  [Offline (simulated)]
+PASS  T1-d  FR-02  After a reload the saved activity is still in the Offline library
+PASS  T2-b  FR-03  Incomplete plan shows a clear message and is not completed  [Please complete all five required sections. Missing: Timing, Materials, Safety notes, Inclusion prompts. Your work can still be saved as a draft.]
+PASS  T2-c  FR-03  Incomplete plan can be kept as a draft  [Draft]
+PASS  T2-a  FR-03  A plan with all five fields completes and is queued  [Pending]
+PASS  T2-d  PR-01  Plan form has no name, email or phone field (participation count only)  [planActivity, steps, timing, planMaterials, safety, inclusion, participation]
+PASS  T3-a  QR-03  After connection loss mid-edit and a reload, the draft is listed  [draft listed]
+PASS  T3-b  QR-03  Reopening the draft shows all previously typed fields
+PASS  T3-c  FR-04  Plan completed offline shows a Retry sync button after reconnecting  [status Pending (offline)]
+PASS  T3-d  FR-04  Status bar tells the user action is needed while a plan is waiting  [● Sync queue: action needed]
+PASS  T3-e  FR-04  Forced failed sync is explained, the plan stays on the device, and Retry recovers it  [Sync failed: connection interrupted. Your plan remains on this device. Select Retry sync to try again. | Failed -> Synced]
+PASS  T3-g  FR-04  Retry while offline fails safely: message shown and the plan stays on the device  [Still offline. Your plan is safe on this device. Reconnect and retry. | Failed]
+NOTE  T3-f  FR-04  How a failed sync is triggered  [No visible control: a failure is shown by retrying while offline, or forced with window.forceFail in the console.]
+PASS  T4-a  SR-02  Sign-out warns about unsynced work and clears local data  [Warning: you have unsynced plans. Signing out will clear thi]
+PASS  T4-b  SR-02  After sign-out, plan content is hidden until signing in again
+NOTE  T4-c  SR-01  Second facilitator cannot see the first one's plans  [Not demonstrable: one simulated account (Facilitator A) and shared storage keys, as the on-screen limitation says.]
+PASS  S-1   AR-03  Every form control has an associated label
+PASS  S-2   AR-03  Page language is set  [en]
+PASS  S-3   AR-03  Status and error messages are in live regions with text  [DIV, globalMessage, activityResults]
+PASS  S-4   AR-03  Actions use native buttons (no click handlers on non-interactive elements)
+
+Summary: 20 pass, 0 fail, 2 observations

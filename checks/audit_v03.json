@@ -1,0 +1,281 @@
+{
+ "contrast_normal": [
+  {
+   "sample": "STEMMate Namibia",
+   "fg": "rgb(255, 255, 255)",
+   "bg": "rgb(7,94,99)",
+   "ratio": 7.53,
+   "need": 3,
+   "size": 20
+  },
+  {
+   "sample": "Facilitator activity library & session p",
+   "fg": "rgb(255, 255, 255)",
+   "bg": "rgb(7,94,99)",
+   "ratio": 7.53,
+   "need": 4.5,
+   "size": 12.8
+  },
+  {
+   "sample": "A−",
+   "fg": "rgb(7, 94, 99)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 7.53,
+   "need": 4.5,
+   "size": 16
+  },
+  {
+   "sample": "Welcome, Facilitator",
+   "fg": "rgb(23, 43, 58)",
+   "bg": "rgb(244,247,248)",
+   "ratio": 13.52,
+   "need": 3,
+   "size": 27.2
+  },
+  {
+   "sample": "A lightweight demonstration using fictio",
+   "fg": "rgb(82, 101, 117)",
+   "bg": "rgb(244,247,248)",
+   "ratio": 5.61,
+   "need": 4.5,
+   "size": 14.4
+  },
+  {
+   "sample": "Online (simulated)",
+   "fg": "rgb(23, 43, 58)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 14.55,
+   "need": 4.5,
+   "size": 14.4
+  },
+  {
+   "sample": "Find activities",
+   "fg": "rgb(23, 43, 58)",
+   "bg": "rgb(244,247,248)",
+   "ratio": 13.52,
+   "need": 4.5,
+   "size": 16
+  },
+  {
+   "sample": "Paper bridge challenge",
+   "fg": "rgb(23, 43, 58)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 14.55,
+   "need": 3,
+   "size": 20.8
+  },
+  {
+   "sample": "Save this activity to keep it available ",
+   "fg": "rgb(21, 60, 61)",
+   "bg": "rgb(232,243,242)",
+   "ratio": 10.62,
+   "need": 4.5,
+   "size": 16
+  }
+ ],
+ "contrast_high": [
+  {
+   "sample": "STEMMate Namibia",
+   "fg": "rgb(255, 255, 255)",
+   "bg": "rgb(0,0,0)",
+   "ratio": 21,
+   "need": 3,
+   "size": 20
+  },
+  {
+   "sample": "Facilitator activity library & session p",
+   "fg": "rgb(255, 255, 255)",
+   "bg": "rgb(0,0,0)",
+   "ratio": 21,
+   "need": 4.5,
+   "size": 12.8
+  },
+  {
+   "sample": "A−",
+   "fg": "rgb(0, 0, 0)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 21,
+   "need": 4.5,
+   "size": 16
+  },
+  {
+   "sample": "Welcome, Facilitator",
+   "fg": "rgb(0, 0, 0)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 21,
+   "need": 3,
+   "size": 27.2
+  },
+  {
+   "sample": "A lightweight demonstration using fictio",
+   "fg": "rgb(34, 34, 34)",
+   "bg": "rgb(255,255,255)",
+   "ratio": 15.91,
+   "need": 4.5,
+   "size": 14.4
+  },
+  {
+   "sample": "Save this activity to keep it available ",
+   "fg": "rgb(21, 60, 61)",
+   "bg": "rgb(232,243,242)",
+   "ratio": 10.62,
+   "need": 4.5,
+   "size": 16
+  }
+ ],
+ "contrast_btn_aria_pressed_initial": "false",
+ "input_border": "rgb(115, 134, 146) width 1px",
+ "tab_order": [
+  {
+   "t": "A−",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "A+",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "High contrast",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "Simulate offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Find activities",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Offline library",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Session plans",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Shared device",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "All levels\nUpper primary\nJunio",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Any duration\n15 minutes or les",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "All topics\nPhysics\nBiology\nChe",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Any materials\nHousehold items\n",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Clear filters",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "View details",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "Save offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  },
+  {
+   "t": "STEMMate Namibia\nFacilitator a",
+   "outline": "none 0px rgb(23, 43, 58)"
+  },
+  {
+   "t": "A−",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "A+",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "High contrast",
+   "outline": "solid 3px rgb(255, 255, 255)"
+  },
+  {
+   "t": "Simulate offline",
+   "outline": "solid 3px rgb(180, 83, 9)"
+  }
+ ],
+ "small_targets": [],
+ "min_target": 43.78125,
+ "max_root_font_px": "32px",
+ "overflow_at_max_text_1280": false,
+ "hscroll_640_browse": 0,
+ "hscroll_640_saved": 0,
+ "hscroll_640_plans": 0,
+ "hscroll_640_account": 0,
+ "hscroll_320_browse": 0,
+ "hscroll_320_saved": 0,
+ "hscroll_320_plans": 0,
+ "hscroll_320_account": 0,
+ "hscroll_640_maxtext": 0,
+ "hscroll_640_textspacing": 0,
+ "after_incomplete_submit": {
+  "globalMessage": "Please complete all five required sections. Missing: Timing, Materials, Safety notes, Inclusion prompts. Your work can still be saved as a draft.",
+  "focused": "timing",
+  "validationMessage": "Please fill out this field.",
+  "aria_invalid": [
+   "timing",
+   "planMaterials",
+   "safety",
+   "inclusion"
+  ]
+ },
+ "focus_after_nav": "Offline library",
+ "headings": [
+  "H1:Welcome, Facilitator",
+  "H2:Offline library"
+ ],
+ "contrast_btn_text": "High contrast"
+}

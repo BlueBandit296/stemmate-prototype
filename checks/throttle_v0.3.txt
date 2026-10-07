@@ -1,0 +1,13 @@
+Throttled performance check on STEMMate_Accessible_Prototype_v0.3.html (22.8 KB), Chromium, 2026-10-06.
+Profile: phone-size viewport 360x740, CPU slowed 6x, network 400 kbit/s with 400 ms latency.
+First load over the throttled network: 1.03 s. Requests to other sites: 0. Total requests: 1.
+PASS  Apply two filters: 0.39 s (target 3 s)
+PASS  Open activity detail: 0.21 s (target 3 s)
+PASS  Save for offline use: 0.13 s (target 3 s)
+PASS  Go offline: 0.09 s (target 3 s)
+PASS  Open Offline library: 0.11 s (target 3 s)
+PASS  Open plan editor: 0.35 s (target 3 s)
+PASS  Complete plan and queue: 0.15 s (target 3 s)
+PASS  Retry sync while offline: 0.09 s (target 3 s)
+PASS  Retry sync online: 0.09 s (target 3 s)
+Slowest response: 0.39 s
